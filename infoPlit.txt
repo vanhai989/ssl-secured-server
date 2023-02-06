@@ -1,0 +1,24 @@
+<key>TSKConfiguration</key>
+<dict>
+	<key>TSKSwizzleNetworkDelegates</key>
+	<true/>
+	<key>TSKPinnedDomains</key>
+	<dict>
+		<key>yourDomain.com</key>
+		<dict>
+			<key>TSKPublicKeyHashes</key>
+			<array>
+				<string>public key 1</string>
+				<string>public key 2</string>
+			</array>
+			<key>TSKPublicKeyAlgorithms</key>
+			<array>
+				<string>TSKAlgorithmRsa2048</string>
+			</array>
+			<key>TSKIncludeSubdomains</key>
+			<true/>
+			<key>TSKEnforcePinning</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
